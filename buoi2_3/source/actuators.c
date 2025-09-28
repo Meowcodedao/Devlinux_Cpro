@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "actuators.h"
 
-static PumpState pump_state = PUMP_OFF; // Trạng thái bơm
+static PumpState pump_state = PUMP_OFF;
 
 void actuators_init(void) {
     pump_state = PUMP_OFF;

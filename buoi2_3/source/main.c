@@ -20,10 +20,10 @@ int main() {
     buttons_init();
 
     while (1) {
-        SensorData data = sensors_read();       // Đọc cảm biến
-        handle_buttons(&config);                // Xử lý nút bấm
-        watering_logic(&config, &data);         // Áp dụng logic tưới
-        sleep(1);                               // Nghỉ 1s
+        SensorData data = sensors_read();       
+        handle_buttons(&config);                
+        watering_logic(&config, &data);         
+        sleep(1);                               
     }
 
     return 0;
