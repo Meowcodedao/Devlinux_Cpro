@@ -1,6 +1,7 @@
 # Smart Plant Watering System
 
-## ⚙️ Cấu trúc dự án
+## Cấu trúc dự án
+
 - **source/**
   - `actuators.c` – Điều khiển các thiết bị chấp hành (bơm, van...)
   - `button.c` – Xử lý nút nhấn
@@ -12,15 +13,14 @@
 - **README.md** – Tài liệu dự án
 
 
-Yêu cầu: gcc
+## Yêu cầu build
+- gcc
+- make
 
-Build chương trình:
-make
+## Build chương trình (bash command shell)
+ make
 
-Chạy chương trình:
+## Chạy chương trình (bash command shell)
 ./spws
-
-Xóa file build:
-make clean
 
 
