@@ -24,8 +24,3 @@ Xóa file build:
 make clean
 
 
-* **actuators.c** → Quản lý thiết bị chấp hành (bơm, van).
-* **button.c** → Quản lý input từ nút nhấn.
-* **sensors.c** → Đọc dữ liệu từ cảm biến (giả lập hoặc thật).
-* **watering.c** → Thuật toán quyết định tưới cây dựa vào dữ liệu cảm biến.
-* **main.c** → Hàm `main()`, khởi động chương trình, gọi các module.
