@@ -14,14 +14,14 @@ void sensors_init(void) {
 SensorData sensors_read(void) {
     SensorData data;
 
-    // Lấy giá trị test theo index
+   
     data.soil_moisture = test_values[idx];
     data.temperature = 25;
 
     printf("[SENSORS] Soil Moisture: %d%%, Temp: %dC\n",
            data.soil_moisture, data.temperature);
 
-    // Tăng index để lần sau trả về case tiếp theo
+   
     idx = (idx + 1) % (sizeof(test_values) / sizeof(test_values[0]));
 
     return data;
